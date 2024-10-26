@@ -178,7 +178,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    *
+    'https://example.com',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
