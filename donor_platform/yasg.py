@@ -6,9 +6,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Dastyor AI",
+      title="DonorSearch",
       default_version='v1',
-      description="This is backend side of Dastyor AI",
+      description="This is backend side of DonorSearch",
       license=openapi.License(name="BSD License"),
    ),
    public=True,
