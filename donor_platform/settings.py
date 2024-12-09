@@ -179,7 +179,7 @@ REST_FRAMEWORK = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    'https://example.com',
+    'http://localhost:8080',
 ]
 
 CORS_ALLOW_CREDENTIALS = True
